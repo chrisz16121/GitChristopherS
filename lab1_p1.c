@@ -35,6 +35,7 @@ int main (void)
 	k = k * 2;
 	circumference = pi * k;
 	printf("the circumference of the circle is %f\n\n",circumference);	
+	printf("this is a test comment\n");
 	
 	return 1;
 }
