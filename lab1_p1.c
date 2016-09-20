@@ -29,6 +29,12 @@ int main (void)
 
 		return 1;
 	}
+	printf("here is the new code, were going to calculate the circumference, enter a number for the radius\n");
+	fflush(stdout);
+	scanf("%f",&k);
+	k = k * 2;
+	circumference = pi * k;
+	printf("the circumference of the circle is %f\n\n",circumference);	
 	
 	return 1;
 }
