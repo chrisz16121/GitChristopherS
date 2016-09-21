@@ -46,6 +46,7 @@ int main(void) {
 			break;
 	}
 	return 1;
+	printf("this is a test comment\n");
 
 }
 
